@@ -2,7 +2,7 @@
 
 (1) First we have to copy git repository on our local system and below command from command line:
 
-git clone 
+git clone https://github.com/dineshkumarravi/Selenium-Framework-Len.git
 cd SeleniumHybridFramework
 mvn clean compile test
 
