@@ -1,4 +1,4 @@
-# Selenium-Hybrid-Lenn
+# Selenium-Hybrid-Framework-Lennox
 
 (1) First we have to copy git repository on our local system and below command from command line:
 
@@ -26,48 +26,3 @@ mvn clean compile test
   Extent.html file will be generated after every run.
   
 * Attached Extent_FailedReport.html in framework root folder reference.
-
-
-
-
-### **Framework Structure :**   
-
-   
-   ├── FailedTestsScreenshots
-├── JavaSelenium.iml
-├── README.md
-├── chrome-driver
-│   └── chromedriver
-├── gecko-driver
-│   └── geckodriver
-├── pom.xml
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── qa
-│   │   │           ├── ExtentReportListener
-│   │   │           │   └── ExtentReportListener.java
-│   │   │           ├── base
-│   │   │           │   └── TestBase.java
-│   │   │           ├── config
-│   │   │           │   └── config.properties
-│   │   │           ├── pages
-│   │   │           │   ├── HomePage.java
-│   │   │           │   └── LoginPage.java
-│   │   │           │   └── CompressorsPage.java
-│   │   │           │   └── ProductsPage.java
-│   │   │           ├── testdata
-│   │   │           │   └── Data.xlsx
-│   │   │           └── util
-│   │   │               ├── DataUtil.java
-│   │   │               └── Xls_Reader.java
-│   │   └── resources
-│   │       ├── log4j.properties
-│   │       └── testng.xml
-│   └── test
-│       └── java
-│           └── com
-│               └── qa
-│                   └── tests
-│                       └── validateCompressorDetailsTest.java
